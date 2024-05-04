@@ -1,17 +1,49 @@
-h1{
-    color: blueviolet;
-}
-.a{
-    color: yellow;
-}
-#p{
-    color: blue;
-}
 body
 {
-    background-color:aquamarine;
+    background-color:lightslategray;
+    --bg-image: url(./gif1.gif);
+    --bg-image-op: .15;
 }
-p
-{
-    color: black;
+body::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    opacity: var(--bg-image-op);
+    background-image: var(--bg-image);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
+
+    
+    }
+    p{
+        color: whitesmoke;
+        
+    }
+   
+    header{
+        text-decoration: none;
+        color: red;
+        text-align: center;
+    }
+    sub{
+        color: yellow;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: lightsalmon;
+        padding: 5px;;
+    }
+    #solo{
+        color: black;
+    }
+    #king{
+        clip-path: circle();
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+bod
 }
