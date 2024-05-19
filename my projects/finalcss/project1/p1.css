@@ -15,32 +15,30 @@ body{
     background-image: url(https://wallpapercave.com/wp/wp6698896.jpg);
     max-height: 100%;
     padding: 320px;
-  
+    
 }
 .two{
     background-image: url(./naruto.png);
     max-height: 80%;
-    padding: 300px;
 }
 .three{
     background-image: url(./one\ piece.jpg);
     max-height: 80%;
-    padding: 320px;
 }
 .four{
     background-image: url(./jjk.jpeg);
     max-height: 80%;
-    padding: 320px;
+
 }
 .five{
     background-image: url(./solo.jpg);
     max-height: 80%;
-    padding: 350px;
+    
 }
 .six{
     background-image: url(./bye.gif);
     max-height: 80%;
-    padding: 350px;
+
 }
 .one,
 .two,
@@ -55,7 +53,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
+    padding: 330px;
 }
 .big-text{
     background-color: black;
@@ -63,4 +61,29 @@ body{
     font-size: xx-large;
     padding: 5px;
     border-radius: 10px;
+    animation-name: ravi;
+    animation-duration: 20s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+@keyframes ravi {
+    0%{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(1.2);
+    }
+    40%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(1.04);
+    }
+    80%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.04);
+    }
+    
 }

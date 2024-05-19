@@ -1,0 +1,21 @@
+body{
+    background-color: pink;
+   text-align: center;
+   
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 20px;
+    border-radius: 20px;
+    margin: ;
+    font-size: larger;
+   
+}
+a{
+    text-decoration: none;
+    color:lightcoral;
+}
