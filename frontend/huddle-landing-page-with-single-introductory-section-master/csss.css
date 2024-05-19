@@ -1,0 +1,25 @@
+body{
+    background-image: url(./images/bg-desktop.svg);
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 500;
+    padding: 20px;
+    height: 100vh;
+    
+}
+button{
+    background-color: blue;
+    color: antiquewhite;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    border-spacing: 30px;
+}
