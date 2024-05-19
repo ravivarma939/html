@@ -1,0 +1,37 @@
+body{
+    background-color: lightblue;
+    --bg-image: url(../rv.jpg);
+   --bg-image-op: .09;
+}
+a{
+    color: darkorange;
+    padding: 5px;
+    text-decoration: none;
+}
+#RAVI{
+    color: black;
+}
+
+
+header{
+    text-align: center;
+    
+}
+body::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    opacity: var(--bg-image-op);
+    background-image: var(--bg-image);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+#menu{
+    background-color: antiquewhite;
+    padding: 10px;
+
+}

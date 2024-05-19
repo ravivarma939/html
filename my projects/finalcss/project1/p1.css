@@ -1,0 +1,66 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+    background-color: lightgoldenrodyellow;
+}
+.N{
+    color: orange;
+}
+.one{
+    background-image: url(https://wallpapercave.com/wp/wp6698896.jpg);
+    max-height: 100%;
+    padding: 320px;
+  
+}
+.two{
+    background-image: url(./naruto.png);
+    max-height: 80%;
+    padding: 300px;
+}
+.three{
+    background-image: url(./one\ piece.jpg);
+    max-height: 80%;
+    padding: 320px;
+}
+.four{
+    background-image: url(./jjk.jpeg);
+    max-height: 80%;
+    padding: 320px;
+}
+.five{
+    background-image: url(./solo.jpg);
+    max-height: 80%;
+    padding: 350px;
+}
+.six{
+    background-image: url(./bye.gif);
+    max-height: 80%;
+    padding: 350px;
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.big-text{
+    background-color: black;
+    width: max-content;
+    font-size: xx-large;
+    padding: 5px;
+    border-radius: 10px;
+}

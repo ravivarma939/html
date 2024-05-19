@@ -1,0 +1,86 @@
+body {
+  background-color: lightslategray;
+  --bg-image: url(./gif1.gif);
+  --bg-image-op: 0.15;
+  text-align: justify;
+}
+body::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  opacity: var(--bg-image-op);
+  background-image: var(--bg-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: padding-box;
+  width: 100vw;
+  height: 100vh;
+}
+p {
+  color: whitesmoke;
+}
+
+header {
+  text-decoration: none;
+  color: red;
+  text-align: center;
+}
+sub {
+  color: yellow;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: lightsalmon;
+  padding: 5px;
+}
+#solo {
+  color: black;
+}
+#king {
+  clip-path: circle();
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+h3 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+p {
+  font-family: "Brush Script MT", cursive;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+blockquote {
+  font-family: "Brush Script MT", cursive;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+pre {
+  font-family: "Brush Script MT", cursive;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}

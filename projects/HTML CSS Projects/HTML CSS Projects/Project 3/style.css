@@ -1,4 +1,4 @@
-html,
+ html,
 body {
   height: 100%;
   margin: 0;
@@ -9,7 +9,7 @@ body {
   color: #666;
 }
 .pimg1 {
-  background-image: url(images/image1.png);
+  background-image: url(https://wallpapercave.com/wp/wp6698896.jpg);
   min-height: 100%;
 }
 .pimg2 {

@@ -1,0 +1,104 @@
+.logo{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: end;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.hii{
+    background-image: url(./images/bg-hero-desktop.svg); 
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 1400px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.one{
+    display: flex;
+    background-image: url(./images/bg-hero-desktop.svg); 
+    padding: 50px;
+    border-radius: 50px;
+    border-spacing: 500px;
+    justify-content:flex-start;
+}
+button{
+    background-color: lightpink;
+    color:whitesmoke;
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+    border-spacing: 20px;
+}  
+#b1{
+    background-color:white;
+    color: black;
+    width: 100px;
+}
+#Grow{
+    background-color:lightgoldenrodyellow;
+    padding: 20px;
+    box-shadow: 5px 5px black;
+}
+#flow{
+    background-color:lightgray;
+    box-shadow: 5px 5px black;
+}
+#user{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px black;
+    border-radius: 20px;
+    border-spacing: 20px;
+}
+.dami{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lower{
+    background-color: aqua;
+    width: max-content;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1000;
+    
+}
+.bottom{
+    background-color: darkslategray;
+    height: 450px;
+    margin-top: -120px;
+    z-index: 0;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    z-index: 1;
+}
+#last{
+    color: white;
+}
+.copy{
+    display: flex;
+    align-self:end;
+}
+.icon{
+    display: flex;
+    justify-content:space-around;
+    text-align: justify;
+}
+
+
+
+

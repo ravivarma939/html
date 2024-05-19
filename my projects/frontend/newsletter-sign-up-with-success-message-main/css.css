@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    
+}
+.main{
+    
+    background-color: white;
+    position: relative;
+    display:flex;
+    width: max-content;
+    justify-content: start;
+    padding: 20px;
+    border-radius: 20px;
+}
+body{
+    display: flex;
+    background: rebeccapurple;
+    justify-content: center;
+    border: 20px;
+
+}
+button{
+    color: whitesmoke;
+    background-color: blue;
+    border-spacing: 30px;
+}
+.left{
+    justify-content: start;
+}

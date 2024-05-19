@@ -1,0 +1,39 @@
+body{
+    background-color: lightblue;
+    --bg-image: url(./Picsart_24-05-06_14-03-01-936.png);
+    --bg-image-op:0.1;
+}
+
+header{
+    position: absolute;
+    text-align: left;
+    padding:;
+    background-color:aqua;
+}
+body::after{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: var(--bg-image-op);
+    background-image: var(--bg-image);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-decoration: none;
+    color:chocolate;
+}
+text{
+    font-family: "Brush Script MT", cursive;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    font-size: xx-large;
+  }
