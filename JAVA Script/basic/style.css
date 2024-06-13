@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,blue,black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+
+    margin: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    width: max-content;
+    text-align: center;
+}

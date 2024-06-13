@@ -1,4 +1,4 @@
-body{
+  body{
     background-color: lightblue;
     --bg-image: url(./Picsart_24-05-06_14-03-01-936.png);
     --bg-image-op:0.1;
@@ -7,7 +7,6 @@ body{
 header{
     position: absolute;
     text-align: left;
-    padding:;
     background-color:aqua;
 }
 body::after{

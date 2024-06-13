@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,blue,black);
+}
+#main{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    width: max-content;
+    text-align: center;
+}

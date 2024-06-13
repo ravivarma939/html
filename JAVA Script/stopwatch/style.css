@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body { 
+    background-image: url(./—Pngtree—stopwatch\ graphic\ icon\ design\ template_3762239.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 360px;
+	padding: 0; 
+	margin: 0; 
+	font-family: verdana; 
+    background-color: white;
+    
+} 
+section{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+.container{
+    border-radius: 40%;
+    background-color: white;
+    text-align: center;
+    padding: 5% 0% 5% 0%;
+    margin: 5%;
+}
+#time{
+    display: flex;
+}
+.digit{
+    background-color: whitesmoke;
+    font-size: xx-large;
+}
+#button{
+    display: flex;
+    align-items: flex-start;
+}
+.btn1{
+    align-self: center;
+    padding: 8px;
+    margin: 5px;
+    color: transparent;
+    background-color: transparent;
+    border: none;   
+}
+#save{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    margin:  0% 30%;
+}
+.save{
+}
