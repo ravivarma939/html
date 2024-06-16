@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+img{
+    border-radius: 20px;
+    box-shadow: 5px 5px goldenrod;
+   animation-name: ravi;
+   animation-duration: 2s;
+   animation-timing-function: ease;
+   animation-iteration-count: 1;
+}
+#buttons{
+    display: flex;
+    justify-content: end;
+
+}
+.text{
+    background-color: lightskyblue;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 5px;
+}
+@keyframes ravi {
+    0%{
+        top:0px;
+        left: 10%;
+    }
+    25%{
+        top: 0px;
+        left : 20%;
+    }
+    50%{
+        top:0px;
+        left:30%;
+    }
+    75%{
+       left:40%;
+    }
+    100%{
+       left:50%;
+    }
+    
+}

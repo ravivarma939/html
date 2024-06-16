@@ -5,10 +5,11 @@ body{
     background: linear-gradient(to right,blue,black);
     text-align: center;
     background-image: url(./back.jpg);
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    height: 100vh;
+    background-attachment: fixed;
 }
 #output{
      display: grid;
@@ -56,5 +57,4 @@ button{
 .anime:hover{
     background-position: left;
     height: 500px;
-
 }

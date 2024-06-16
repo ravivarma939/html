@@ -44,7 +44,6 @@ function createCard(poster, title,real) {
   mydiv.appendChild(anime);
   maindiv.appendChild(mydiv);
 }
-
 marvel.forEach(data => createCard(data.poster, data.title,data.real));
 
 button.addEventListener('click', () => {
@@ -52,10 +51,10 @@ button.addEventListener('click', () => {
   const titleValue = titleInput.value;
   const realValue = realinput.value;
   if (posterValue && titleValue&& realValue) {
-      createCard(posterValue, titleValue,realValue);
+      createCard(posterValue, titleValue, realValue);
       posterInput.value = "";
       titleInput.value = "";
-      realValue.value = "";
+      realinput.value = "";
   } else {
       alert('ENTER URL,ENTER CHARCTER NAME,ENTER HERO REAL NAME');
   }
